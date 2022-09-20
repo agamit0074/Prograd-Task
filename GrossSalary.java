@@ -1,3 +1,4 @@
+//Program to take Basic salary as an input and print its Gross Salary if employee is getting BS less than 20,000 then will receive 20% bonus otherwise 10%.... 
 import java.util.Scanner;
 
 public class GrossSalary {
