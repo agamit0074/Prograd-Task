@@ -1,3 +1,4 @@
+//Program to take int Array as an input and print secend largest element in an Array
 import java.util.Arrays;
 import java.util.Scanner;
 
