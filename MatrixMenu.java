@@ -1,5 +1,6 @@
-import jdk.swing.interop.SwingInterOpUtils;
-
+/*Program to Prepare a menu Driven Program for Matrix operation
+  Like Addition of two Matrix,Subtaraction of Two Matrix and Transpose of Matrix
+  And if user entered Wrong Choice then to again ask for a correct choice*/
 import java.util.Scanner;
 
 public class MatrixMenu {
@@ -13,6 +14,7 @@ public class MatrixMenu {
             System.out.println("------------------------------");
             choice = sc.nextByte();
             switch (choice){
+                    // case 1 for Addition of Two Matrix
                 case 1 : System.out.println("Enter the no. of Rows in matrix 1");
                     int r1 = sc.nextInt();
                     System.out.println("Enter the no. of Column in matrix 1");
@@ -61,6 +63,7 @@ public class MatrixMenu {
                     else
                         System.out.println("Sorry Matrix Addition is not Possible As there Should be Same no. of Rows And Column.");
                     break;
+                    //Case 2 for Subtraction of Two Matrix
                 case 2:
                     System.out.println("Enter the no. of Rows in matrix 1");
                     int r3 = sc.nextInt();
@@ -110,6 +113,7 @@ public class MatrixMenu {
                     else
                         System.out.println("Sorry Matrix Subtraction is not Possible As there Should be Same no. of Rows And Column.");
                     break;
+                    //Case 3 for Transpose of a Matrix
                 case 3:
                     System.out.println("Enter the no. of Rows in matrix : ");
                     int r = sc.nextInt();
