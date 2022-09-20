@@ -1,3 +1,4 @@
+//Program To take 3 digit int input and Check the no. is Armstrong Number or not....
 import java.util.Scanner;
 
 public class ArmstrongNumber {
