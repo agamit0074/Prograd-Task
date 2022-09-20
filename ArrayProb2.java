@@ -1,3 +1,4 @@
+//Program to take int array as an input and Print minimun and maximum element in Array
 import java.util.Scanner;
 
 public class ArrayProb2 {
