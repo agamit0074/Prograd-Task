@@ -1,3 +1,4 @@
+// Program to take int Array as an input and print square and cube of each element.....
 import java.util.Scanner;
 
 public class ArrayProb1 {
