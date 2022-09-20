@@ -1,3 +1,8 @@
+/*Program to make a Menu to perform
+   1. to check no. is odd or even
+   2. to check no. is Positive or Negetive
+   3. to check which no. is greater between two no.s
+   4. take no. of days as an input and print no. of months and Remainig Days*/
 import java.util.Scanner;
 
 public class MenuDriven {
@@ -11,6 +16,7 @@ public class MenuDriven {
         System.out.println("---------------------------------");
         choice = sc.nextByte();
             switch (choice) {
+                    //to check no. is even or odd
                 case 1:
                     System.out.println("Enter Number :");
                     int n = sc.nextInt();
@@ -18,6 +24,7 @@ public class MenuDriven {
                     System.out.println("Number " + n + " is " + ((n % 2 == 0) ? "Even" : "Odd"));
                     System.out.println("---------------------------------");
                     break;
+                    //to check no. is positive or negetive
                 case 2:
                     System.out.println("Enter Number : ");
                     int n2 = sc.nextInt();
@@ -25,6 +32,7 @@ public class MenuDriven {
                     System.out.println("Number " + n2 + " is " + ((n2 >= 0) ? "POSITIVE" : "NEGATIVE"));
                     System.out.println("---------------------------------");
                     break;
+                    //to check which no. is greater 
                 case 3:
                     System.out.println("Enter 1st Number : ");
                     int a = sc.nextInt();
@@ -34,6 +42,7 @@ public class MenuDriven {
                     System.out.println("Maximum : " + ((a > b) ? a : b));
                     System.out.println("---------------------------------");
                     break;
+                    // to cover days into month
                 case 4:
                     System.out.println("Enter no. of Days : ");
                     int d = sc.nextInt();
@@ -44,6 +53,6 @@ public class MenuDriven {
                 default:
                     System.out.println("Wrong Input Please Try again....");
             }
-        }while (choice<=1&&choice>=4);
+        }while (choice<1||choice>4);
     }
 }
